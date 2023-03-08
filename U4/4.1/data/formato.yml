@@ -1,4 +1,4 @@
---- 
+--- # Laptops list
 computer:
   laptop:
   - id: 1
@@ -11,3 +11,23 @@ computer:
       - Antiviru
       - SO Microsoft
       - Office 360
+  - id: 2
+    name: Razor 578-HB
+    CPUs: 8
+    RAM: 8
+    screen: 16
+    apps:
+      software:
+      - Antiviru
+      - SO Linux
+      - Libre Office
+  - id: 3
+    name: HP Pavilium 21s
+    CPUs: 12
+    RAM: 16
+    screen: 17
+    apps:
+      software:
+      - Antiviru
+      - SO Ubuntu coret
+      - Open Office
