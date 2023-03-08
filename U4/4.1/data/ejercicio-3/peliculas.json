@@ -1,0 +1,32 @@
+{
+    "peliculas":[
+        {
+            "id":1,
+            "titulo":"Creed III",
+            "sinopsis":"Después de dominar el mundo del boxeo, Adonis Creed ha progresado tanto en su carrera como en su vida familiar.",
+            "estreno":"02 de marzo del 2023",
+            "edadRecomendada":"12",
+            "genero":["Acción","Aventura","Drama"],
+            "sesiones":["16:20","18:05","19:10","20:50","22:00"]
+        },
+        {
+            "id":2,
+            "titulo":"Momias",
+            "sinopsis":"En las entrañas de la tierra, ¡existe una ciudad de momias! Por mandato imperial, la Princesa Nefer debe casarse con Thut, un ex auriga de carros.",
+            "estreno":"05 de marzo del 2023",
+            "edadRecomendada":"0",
+            "genero":["Comedia","Aventura","Animación"],
+            "sesiones":["15:45","17:00","18:00","19:15","20:15"]
+        },
+        {
+            "id":1,
+            "titulo":"Ant-Man y la Avispa: Quantumanía",
+            "sinopsis":"La pareja de superhéroes Scott Lang (Paul Rudd) y Hope Van Dyne (Evangeline Lilly) regresan para continuar sus aventuras como Ant-Man y la Avispa.",
+            "estreno":"07 de marzo del 2023",
+            "edadRecomendada":"12",
+            "genero":["Acción","Aventura","Comedia"],
+            "sesiones":["16:00","17:55","18:55","20:45","21:45"]
+        }
+        
+    ]
+}
