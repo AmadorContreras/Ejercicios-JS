@@ -11,7 +11,44 @@
     
 }
 
+body{
+    background-color: rgb(212, 212, 212);
+}
+#cards{
+    width: 100%;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card-1{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(147, 171, 193);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.cover{
+    width: 32%;
+}
+.cover img{
+    width: 100%;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.data{
+    width: 68%;
+    height: 100%;
+    padding-top: 3%;
+    padding-left: 10px;
+    /* border: 1px solid black; */
+}
 
 
 
