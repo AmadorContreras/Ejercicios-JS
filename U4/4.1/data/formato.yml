@@ -1,0 +1,13 @@
+--- 
+computer:
+  laptop:
+  - id: 1
+    name: Asus 34-HB
+    CPUs: 4
+    RAM: 4
+    screen: 15
+    apps:
+      software:
+      - Antiviru
+      - SO Microsoft
+      - Office 360
