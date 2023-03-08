@@ -1,0 +1,45 @@
+{
+    
+    "empleados":[
+        {
+            "id":1,
+            "nombreCompleto":["Pere","Ferrer"],
+            "telefono":648898769,
+            "especialidad":1,
+            "departamento":"1"
+        },
+        {
+            "id":2,
+            "nombreCompleto":["Joan","Gomila"],
+            "telefono":631445779,
+            "especialidad":2,
+            "departamento":"2"
+        },
+        {
+            "id":3,
+            "nombreCompleto":["Sara","Gómez"],
+            "telefono":653378889,
+            "especialidad":3,
+            "departamento":"2"
+        },
+        {
+            "id":4,
+            "nombreCompleto":["Xavi","Caraibe"],
+            "telefono":908456789,
+            "especialidad":4,
+            "departamento":"3"
+        }
+    ],
+    "especialidades":{
+        "1":"Seguridad informatica",
+        "2":"Python",
+        "3":"Java",
+        "4":"Nóminas"
+    },
+    "departamento":{
+        "1":"Sistemas",
+        "2":"Desarrollo",
+        "4":"Administración"
+    }
+    
+}
