@@ -1,0 +1,25 @@
+{
+    "jugadores":[
+        {
+            "id":1,
+            "nombre":"Alex",
+            "apellidos":"McCarthy",
+            "fechaNacimiento":"03 de diciembre del 1989",
+            "puntuacion":"80"
+        },
+        {
+            "id":2,
+            "nombre":"Jack",
+            "apellidos":"Butland",
+            "fechaNacimiento":" 10 de marzo del 1993",
+            "puntuacion":"82"
+        },
+        {
+            "id":3,
+            "nombre":"Jordan",
+            "apellidos":"Pickford",
+            "fechaNacimiento":" 07 de marzo del 1994",
+            "puntuacion":"79"
+        }
+    ]
+}
