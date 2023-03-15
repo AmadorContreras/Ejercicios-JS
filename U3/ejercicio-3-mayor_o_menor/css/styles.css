@@ -1,0 +1,60 @@
+@import url();
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    background-color: rgb(145, 145, 145);
+}
+
+#contenedor {
+    background-color: rgb(200, 200, 200);
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+
+#contenedor div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedor div label {
+    margin: 10px;
+    /* background-color: antiquewhite; */
+}
+
+#contenedor div input {
+    width: auto;
+    text-align: center;
+}
+
+#btn {
+    padding: 5px;
+}
+
+#result {
+    min-width: 50px;
+    width: auto;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(239, 239, 239);
+}
