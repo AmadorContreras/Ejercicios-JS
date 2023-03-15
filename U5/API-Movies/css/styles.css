@@ -37,12 +37,19 @@ section{
 }   
 
 .card{
-    height: 250px;
-    background-color: rgb(8, 79, 79);
+    height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .card .img{
     height: 80%;
+    width: 100%;
+
+    background-color: white;
+}
+.card .img img{
+    height: 100%;
     width: 100%;
     background-color: white;
 }
@@ -50,7 +57,9 @@ section{
 .card .title-movie{
     height: 20%;
     width: 100%;
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(192, 192, 192);
+    align-items: center;
+    text-align: center;
 }
 
 
