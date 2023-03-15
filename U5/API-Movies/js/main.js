@@ -16,7 +16,8 @@ async function getMovies() {
             <div class="img">
             <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}">
                 </div>
-                    <div class="title-movie">${movie.title}</div>
+                    <div class="title-movie">
+                    <p>${movie.title} </p></div>
             </div>
         `;
     });
