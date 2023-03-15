@@ -1,0 +1,98 @@
+@import url();
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    
+}
+body{
+    width: 100%;
+    background-color: gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    width: 80%;
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1%;
+}   
+
+.card{
+    height: 250px;
+    background-color: rgb(8, 79, 79);
+}
+
+.card .img{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+}
+
+.card .title-movie{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Escritorio extra grande */
+@media only screen and (min-width: 1200px){
+
+}
+/* / Escritorio grande / */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* / Escritorio pequeño / tablet / */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* / Tablets y phablets / */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+}
+
+/* / Teléfonos / */
+@media only screen and (max-width: 575px){
+
+}
