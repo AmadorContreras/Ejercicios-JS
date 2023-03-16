@@ -1,24 +1,35 @@
-
+/*////////////////////  Ejercicio 4 /////////////////////////////*/
+let text = document.querySelector('#text');
+const result = document.querySelector('#resultado');
+const btn_result_4 = document.querySelector('#btn-result-4');
 
 
 function contarAs(texto) {
     let contador = 0;
-    for (var i = 0; i < texto.length; i++) {
-        if (texto.charAt(i) == 'a' || texto.charAt(i) == 'A') {
-            contador = contador + 1;
+    texto = texto.value
+    let upperCase = texto.toUpperCase();
+    for (var i = 0; i < upperCase.length; i++) {
+        if (upperCase.charAt(i) == 'A') {
+            contador += 1;
         }
     }
-    return contador;
+    result.innerHTML = `${contador} As en la frase: ${texto}`;
 }
+/*////////////////////  Ejercicio 4 /////////////////////////////*/
 
-let textoNoticia = "El coranavirus ya tiene vacuna";
-console.log("1-Número de as:", contarAs(textoNoticia));
-
-let textoNoticia2 = "El coranavirus ya tiene vacuna, la llamada VACCUR";
-console.log("2-Número de as:", contarAs(textoNoticia2));
 
 function init() {
-    contarAs(1);
+    /*////////////////////  Ejercicio 4 /////////////////////////////*/
+    btn_result_4.addEventListener("click", function () {
+        contarAs(text)
+    })
+    /*////////////////////  Ejercicio 4 /////////////////////////////*/
+    /*////////////////////  Ejercicio 5 /////////////////////////////*/
+
+
+    /*////////////////////  Ejercicio 5 /////////////////////////////*/
+
+
 }
 
 init();
