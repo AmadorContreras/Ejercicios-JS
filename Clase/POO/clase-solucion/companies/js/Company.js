@@ -26,7 +26,7 @@ export class Company {
         });
 
         return `
-        <div>
+        <div class="card">
             <div class="compainy">
                 <div class="id"> ${this.id} </div>
                 <div class="name"> ${this.name} </div>
