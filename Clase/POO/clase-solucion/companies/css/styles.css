@@ -1,17 +1,60 @@
-#com-container div{
+#com-container{
     width: 80%;
     /* display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: .5rem; */
-
     color: white;
-
 }
 #com-container div{
     border: 1px solid black;
     background-color: rgb(48, 48, 48);
     padding: .5rem;
 }
-#com-container div p{
+
+.card{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/**********************   Stiles compainy  ************************/
+.card .compainy{
+    width: 100%;
+    height: 150px;
+    display: flex;
+
+}
+.card .compainy div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.card .compainy .id{
+    width: 5%;
+    height: 100%;
+}
+.card .compainy .name{
+    width: 15%;
+    height: 100%;
+    font-size: 2.5rem;
+}
+.card .compainy .web{
+    width: 30%;
+    height: 100%;
+}
+.card .compainy .email{
+    width: 50%;
+    height: 100%;
+}
+/**********************   END Stiles compainy  ************************/
+
+/**********************   Stiles employees  ************************/
+.card .emp-container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    
 }
