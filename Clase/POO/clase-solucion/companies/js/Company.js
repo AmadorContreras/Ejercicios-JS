@@ -13,7 +13,7 @@ export class Company {
     }
 
     render(){
-        let employeesHTML="";
+        let employeesHTML='';
         this.employees.forEach(emp => {
             // es lo que nos trae un parrafo
             employeesHTML+=emp.render();

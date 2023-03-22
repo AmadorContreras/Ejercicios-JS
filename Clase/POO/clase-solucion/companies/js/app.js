@@ -24,7 +24,7 @@ function getCompanies() {
                 });
 
                 // Creamos los datos iniciales || JSON a Programacion orientada a objetos P.O.O.
-                const company = new Company(com.id, com.name, com.web, com.email);
+                const company = new Company(com.id, com.name, com.web, com.email, employeesList);
                 container.innerHTML += company.render();
             });
 
