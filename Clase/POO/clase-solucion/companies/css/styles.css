@@ -1,0 +1,17 @@
+#com-container div{
+    width: 80%;
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: .5rem; */
+
+    color: white;
+
+}
+#com-container div{
+    border: 1px solid black;
+    background-color: rgb(48, 48, 48);
+    padding: .5rem;
+}
+#com-container div p{
+    width: 100%;
+}
