@@ -1,0 +1,86 @@
+[
+
+    {
+
+        "id":1,
+        "name":"TBC",
+        "web":"www.tbc.com",
+        "email":"tbc@telcolutions.com",
+        "employees":[
+            {
+                "id":1,
+                "nif":"1231231A",
+                "name":"amador",
+                "surname1":"contreras",
+                "surname2":"Lagos",
+                "email":"amador@telcolutions.com",
+                "salary": 1000
+            },
+            {
+                "id":2,
+                "nif":"3245632V",
+                "name":"Katherine",
+                "surname1":"contreras",
+                "surname2":"Lagos",
+                "email":"kathy@telcolutions.com",
+                "salary": 1500
+
+            },
+            {
+                "id":3,
+                "nif":"1234543G",
+                "name":"Solange",
+                "surname1":"contreras",
+                "surname2":"Lagos",
+                "email":"sol@telcolutions.com",
+                "salary": 1500
+
+            }
+        ]
+    },
+    {
+
+        "id":2,
+        "name":"iSystems",
+        "web":"www.isystemts.com",
+        "email":"systems.comprar@isystems.com",
+        "employees":[
+            {
+                "id":1,
+                "name":"Isaac",
+                "nif":"1231231A",
+                "surname1":"contreras",
+                "surname2":"burbano",
+                "email":"issac@isystems.com",
+                "salary": 1000
+            },
+            {
+                "id":2,
+                "name":"Alison",
+                "nif":"1231231A",
+                "surname1":"contreras",
+                "surname2":"Lagos",
+                "email":"kathy@isystems.com",
+                "salary": 1500
+
+            },
+            {
+                "id":3,
+                "name":"Martjori",
+                "nif":"1231231A",
+                "surname1":"contreras",
+                "surname2":"Lagos",
+                "email":"sol@isystems.com",
+                "salary": 1500
+
+            }
+        ]
+    },
+    {
+
+        "id":3,
+        "name":"RIU",
+        "web":"www.riu.com",
+        "email":"riu@riu.com"
+    }
+]
