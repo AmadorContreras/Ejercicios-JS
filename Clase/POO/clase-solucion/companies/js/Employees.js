@@ -12,12 +12,14 @@ export class Employee {
     }
     render (){
         return `
-        <p>
-        ${this.name}
-        ${this.surname1}
-        ${this.surname2}
-        ${this.salary}
-        </p>
+        <div>
+            <p>
+            ${this.name}
+            ${this.surname1}
+            ${this.surname2}
+            </p>
+            <p>${this.salary} €</p>
+        </div>
         `;
 
     }

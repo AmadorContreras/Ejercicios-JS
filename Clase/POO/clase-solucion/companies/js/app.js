@@ -19,7 +19,13 @@ function getCompanies() {
 
                 const employeesList = [];
                 com.employees.forEach(emp => {
-                    const empOBJ = new Employee(emp.id, emp.nif, emp.name, emp.surname1, emp.surname2, emp.email, emp.salary);
+                    const empOBJ = new Employee(emp.id, 
+                                                emp.nif, 
+                                                emp.name, 
+                                                emp.surname1, 
+                                                emp.surname2, 
+                                                emp.email, 
+                                                emp.salary);
                     employeesList.push(empOBJ);
                 });
 
@@ -30,5 +36,3 @@ function getCompanies() {
 
         });
 }
-
-
