@@ -1,3 +1,4 @@
+import Coin from "./Coin";
 const mainContainer = document.querySelector("#main-container");
 
 async function getCoins() {
@@ -22,29 +23,12 @@ function renderCoins(list) {
     <div>Price change 24h</div>
     `;
     list.forEach((coin, index) => {
-        mainContainer.innerHTML += `
-        <div>${index+1}</div>
-        <div>
-            <img src="${coin.image}">  
-        </div>
-        <div>${coin.name}</div>
-        <div>${coin.current_price}</div>
-        <div class="${coin.price_change_24h>0?"green":"red"}">
-                    ${coin.price_change_24h}
-        </div>
-        `;
-
-
-        // class 
-        // if (coin.price_change_24h > 0) {
-        //     mainContainer.innerHTML += `
-        //     <div class="green">${coin.price_change_24h}</div>
-        //     `;
-        // }else {
-        //     mainContainer.innerHTML += `
-        //     <div class="red">${coin.price_change_24h}</div>
-        //     `;
-        // }
+        const coinOBJ = new Coin({
+        "index":index+1,
+        ...Coin
+        });
+        mainContainer.innerHTML += coinOBJ.render();
+        
     });
 }
 
